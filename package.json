@@ -1,0 +1,27 @@
+{
+  "name": "ui-automation",
+  "version": "1.0.0",
+  "description": "web ui automation with puppeteer and jest",
+  "main": "index.js",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umesh2Patel/ui-automation.git"
+  },
+  "author": "umesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umesh2Patel/ui-automation/issues"
+  },
+  "homepage": "https://github.com/Umesh2Patel/ui-automation#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-puppeteer": "^3.8.0",
+    "puppeteer": "^1.11.0"
+  }
+}
